@@ -1,0 +1,30 @@
+.navbar,
+.navbar-collpase {
+  flex-direction: column;
+  align-items: baseline;
+  height: 100vh;
+}
+
+.navbar {
+  width: 20%;
+  max-width: 300px;
+  background-color: #1A1A1A !important;
+  padding-top: 1.2%;
+}
+
+.navbar-brand {
+  margin: 0
+}
+
+.navbar-nav {
+  padding-left: 10%;
+}
+
+.nav-item>a>span {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.nav-item>a>img {
+  height: 25px;
+}
