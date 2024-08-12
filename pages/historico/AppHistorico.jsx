@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 
 const AppHistorico = () => {
   return (
-    <Navbar />
+    <Navbar paginaAtual='historico' />
   );
 };
 

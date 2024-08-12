@@ -1,5 +1,6 @@
 .navbar,
-.navbar-collpase {
+.navbar-collapse,
+.navbar-toggler {
   flex-direction: column;
   align-items: baseline;
   height: 100vh;
@@ -8,6 +9,7 @@
 .navbar {
   width: 20%;
   max-width: 300px;
+  min-width: 180px;
   background-color: #1A1A1A !important;
   padding-top: 1.2%;
 }
@@ -27,4 +29,50 @@
 
 .nav-item>a>img {
   height: 25px;
+}
+
+.titulo-nav {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.active{
+  color: #FFB800 !important;
+}
+
+.navbar-toggler{
+  display: none;
+}
+
+@media (max-width: 1110px) {
+  .titulo-nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  .nav-item>a>img {
+    height: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    width: 60px;
+    min-width: 0px;
+    max-width: none;
+  }
+
+  .navbar-collapse{
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+  }
+}
+
+
+/* TESTES */
+.teste{
+  background-color: green;
 }
