@@ -1,0 +1,58 @@
+@import './cores.css';
+
+.container-filtro-select{
+  width: 70%;
+}
+
+.container-filtro-input {
+  width: 30%;
+}
+
+
+.pesquisa-risco{
+  background-image: url('../../images/historico/pesquisa.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1.3rem;
+  background-position: 0.3rem;
+  padding-left: 1.9rem;
+}
+
+.pesquisa-risco:focus{
+  box-shadow: 0 0 0 .25rem rgba(255, 201, 61, .50);
+  border-color: var(--amarelo-renault);
+}
+
+.input-group{
+  width: 55%;
+}
+
+.form-select{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+}
+
+.btn-warning{
+  width: 45%;
+  background-color: var(--amarelo-renault);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+}
+
+@media (max-width: 1199px) {
+  .form-select,
+  .pesquisa-risco,
+  .btn-warning{
+    font-size: 12px;
+  }
+
+  .container-filtro-select{
+    margin-right: 0px !important;
+  }
+
+  .container-filtro-input{
+    margin-left: 0px !important;
+  }
+}

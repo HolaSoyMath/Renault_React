@@ -3,7 +3,7 @@ import ItemNav from "./ItemNav";
 const MenuSup = ({ paginaAtual, colapsar }) => {
   return (
     <div className="d-flex align-items-start w-100 h-100">
-      <ul className="navbar-nav flex-column mt-5 w-100">
+      <ul className="navbar-nav flex-column mt-5 w-100 p-0">
         <ItemNav
           nomeImg="home"
           label="Início"
