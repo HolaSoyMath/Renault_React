@@ -26,6 +26,12 @@ tbody>th {
   border: 2px solid #FED2CF;
 }
 
+.status-solucionado{
+  background-color: #d0ff0071;
+    color: #3c7705;
+    border: 2px solid #53a30877;
+}
+
 .acessar{
   border: 2px solid #EDEEF2;
   background-color: #F9FAFC;

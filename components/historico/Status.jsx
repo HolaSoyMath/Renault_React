@@ -3,7 +3,8 @@ const Status = ({status}) => {
   const classes = {
     Aberto: 'aberto',
     Andamento: 'andamento',
-    Encerrado: 'encerrado'
+    Encerrado: 'encerrado',
+    Solucionado: 'solucionado'
   }
 
   return (

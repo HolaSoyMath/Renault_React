@@ -2,8 +2,9 @@ import Status from "./Status";
 
 const ItemTabela = ({campos}) => {
 
+
   return (
-    <tr className="text-center">
+    <tr key={campos.id} className="text-center">
       <td className="col-2" scope="row">
         <img src={`/images/veiculos/${campos.veiculo}.png`} alt="" />
       </td>
